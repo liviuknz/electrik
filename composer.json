@@ -9,25 +9,26 @@
             "email": "hello@neerajkumar.name"
         }
     ],
-	"require": {
+    "require": {
         "php": "^8.1",
-		"ext-bcmath": "*",
-        "illuminate/support": "^10.10"
+        "ext-bcmath": "*",
+        "illuminate/support": "^10.10",
+        "livewire/livewire": "^2.12"
     },
-	"autoload": {
+    "autoload": {
         "psr-4": {
-            "Electrik\\": "src"
+            "Electrik\\": "src/"
         },
-		"files": [
-			"src/helpers.php"
-		]
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
-            "Electrik\\Tests\\": "tests"
+            "Electrik\\Tests\\": "tests/"
         }
     },
-	"config": {
+    "config": {
         "sort-packages": true
     },
     "extra": {
@@ -43,7 +44,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require-dev": {
-        "livewire/livewire": "^2.13",
-		"electrik/slate": "dev-development"
+        "electrik/slate": "dev-development"
     }
 }
